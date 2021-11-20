@@ -4,7 +4,6 @@ import { AnimatePresence } from "framer-motion";
 import Header from "components/Header/Header";
 
 function MyApp({ Component, pageProps, router }) {
-  console.log(router);
   return (
     <>
       <Header />
