@@ -1,12 +1,19 @@
-import Link from "next/link";
-import Image from "next/image";
 import Header from "components/Header/Header";
+import { motion } from "framer-motion";
+import styled from "styled-components";
+import Layout from "components/Layout/Layout";
+
+const Container = styled.div`
+  background: #7e9a9a;
+  height: 100%;
+`;
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <h1>Index</h1>
-    </div>
+    <Layout>
+      <Container>
+        <h1>Index</h1>
+      </Container>
+    </Layout>
   );
 }
